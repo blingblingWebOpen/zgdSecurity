@@ -4,6 +4,5 @@
 线上浏览地址：
 http://htmlpreview.github.io/?https://blingblingwebopen.github.io/zgdSecurity/
 
-
-https://github.com/blingblingWebOpen/zgdSecurity/blob/master/images/redome1.png
-https://github.com/blingblingWebOpen/zgdSecurity/blob/master/images/redome2.png
+![图片说明1](https://github.com/blingblingWebOpen/zgdSecurity/blob/master/images/redome1.png)
+![图片说明1](https://github.com/blingblingWebOpen/zgdSecurity/blob/master/images/redome2.png)
