@@ -1,0 +1,15 @@
+
+
+body{width: 1005px;  margin: 0 auto;}
+
+.main{width: 986px;margin: 0 auto; padding: 0 9px; background: #fff;}
+
+.header{width: 986px; height: 177px;}
+.head{width: 986px; height: 135px; background: url(../images/head.png) no-repeat;}
+.nav{width: 986px; height: 42px; background: url(../images/navbg.png) no-repeat;}
+.nav ul{margin-left: 154px;}
+.nav ul li{float: left;padding: 0 22px;}
+.nav ul li a{float: left; display: block; font: normal 14px/38px "微软雅黑"; color: #fff; }
+.nav ul li a:hover{color: #cc6600;}
+
+.mid1{margin-top:10px ; width: 986px; height: 355px; background: url(../images/mid1bg.png) no-repeat;}

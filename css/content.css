@@ -1,0 +1,186 @@
+/* CSS Document */
+
+.home_main{ width:986px; height:356px; background:url(../images/service_hall_bg.png) repeat-x; margin:10px auto; overflow:hidden;  -moz-border-radius:0 0 8px 8px; -webkit-border-radius:0 0 8px 8px; border-radius:0 0 8px 8px; overflow:hidden;}
+	.service_hall_title{ width:986px; height:26px; background:url(../images/service_hall_title.png) no-repeat left top; overflow:hidden;}
+		.service_hall_title h2{ float:left; width:190px; height:26px; margin:0 9px; display:inline;}
+			.service_hall_title h2 strong{ float:left; width:164px; height:26px; overflow:hidden; font:normal 16px/26px "Microsoft YaHei"; color:#fff; background:url(../images/ico_star.png) no-repeat left center; text-indent:20px; }
+			.service_hall_title h2 a{ float:right; width:14px; height:26px; background:url(../images/ico_more.png) no-repeat left center;}
+		
+		.service_hall_title h2.right_title{ float:right;}
+	.inf{ width:190px; height:319px; float:left; margin:0 10px; display:inline; overflow:hidden;}
+		.inf h3{ width:188px; height:32px; border:1px solid #e5e5e5; background:#f3f3f3; overflow:hidden;}
+			.inf h3 span{ float:left; width:62px; height:32px; border-right:1px solid #e5e5e5; text-align:center; font:normal 12px/32px "Microsoft YaHei"; cursor:pointer;}
+		.inf_con{  width:190px; height:285px; -border-radius:0 0 6px 6px; -webkit-border-radius:0 0 6px 6px; border-radius:0 0 6px 6px;}
+		.inf_con_text{ background:url(../images/inf_bg.png) repeat-x;}
+			.inf_con_text ul{ width:170px; margin:0 10px; padding-top:4px; }
+				.inf_con_text ul li{ height:26px; width:152px; font:normal 12px/26px SimSun; border-bottom:1px dashed #bbb; overflow:hidden; background:url(../images/ico_1.png) no-repeat 5px center; padding-left:18px;}
+		.inf_con_img{ background:#fff;}
+			.roll_show{}
+				.rollshow_title{ font:bold 12px/20px SimSun; padding:5px 0;}
+				.rollshow_con{ padding-bottom:8px; border-bottom:1px dashed #bbb;}
+					.rollshow_con img{ margin-bottom:5px;}
+					.rollshow_con a:hover{ text-decoration:underline;}
+	.police_inf{}
+	.government{ float:right;}
+		
+	.service_hall{ width:566px; height:305px; margin-top:12px; float:left; background:url(../images/service_hall_con_bg.png) no-repeat center top;}
+		.servicehall_title{ width:554px; height:64px; overflow:hidden; padding-left:12px;}
+			.servicehall_title a{ float:left; width:102px; height:44px; margin-right:8px; margin-top:9px;}
+			.servicehall_title a.department{ background:url(../images/btn_1.png) no-repeat;}
+				.servicehall_title a.department:hover{ background:url(../images/btn_3.png) no-repeat;}
+			.servicehall_title a.personal{ background:url(../images/btn_2.png) no-repeat;}
+				.servicehall_title a.personal:hover{ background:url(../images/btn_4.png) no-repeat;}
+		.servicehall_div{ width:566px; height:160px; overflow:hidden;}
+			.kwicks {
+				display: block;
+				list-style-type: none;
+				list-style: none;
+				position: relative;
+				margin:15px 0 0 22px;
+				padding: 0;
+			}
+			.kwicks > * {
+				display: block;
+				overflow: hidden;
+				padding: 0;
+				margin: 0;
+			}
+			.kwicks.kwicks-processed > * {
+				margin: 0;
+				position: absolute;
+			}
+			.kwicks-horizontal > * {
+				float: left;
+			}
+			.kwicks-horizontal > :first-child {
+				margin-left: 0;
+			}
+			.kwicks-vertical > :first-child {
+				margin-top: 0;
+			}
+			.kwicks {	width: 535px; height: 129px; overflow:hidden;}
+			.kwicks > li {	height: 129px;	width: 107px;	float: left;}
+			/*.kwicks > li.kwicks-expanded { background-color: red; }*/
+			.kwicks > li.kwicks-selected { background-color: blue; }
+		
+		
+			.ser_block{ width:535px; height:129px;}
+				.ser_img{ width:92px; height:129px; margin-right:15px; float:left; }
+					.ser_img a{ float:left; width:73px; height:21px; margin:102px 0 0 9px;}
+				.ser_block1 div.ser_img{ background:url(../images/servic_div_bg1.png) no-repeat;}
+					.ser_block1 div.ser_img a{ background:url(../images/servic_btn1.png) no-repeat left top;}
+					.ser_block1:hover div.ser_img a{ background-position:left bottom;}
+				.ser_block2 div.ser_img{ background:url(../images/servic_div_bg2.png) no-repeat;}
+					.ser_block2 div.ser_img a{ background:url(../images/servic_btn2.png) no-repeat left top;}
+					.ser_block2:hover div.ser_img a{ background-position:left bottom;}
+				.ser_block3 div.ser_img{ background:url(../images/servic_div_bg3.png) no-repeat;}
+					.ser_block3 div.ser_img a{ background:url(../images/servic_btn3.png) no-repeat left top;}
+					.ser_block3:hover div.ser_img a{ background-position:left bottom;}
+				.ser_block4 div.ser_img{ background:url(../images/servic_div_bg4.png) no-repeat;}
+					.ser_block4 div.ser_img a{ background:url(../images/servic_btn4.png) no-repeat left top;}
+					.ser_block4:hover div.ser_img a{ background-position:left bottom;}
+				.ser_block5 div.ser_img{ background:url(../images/servic_div_bg5.png) no-repeat;}
+					.ser_block5 div.ser_img a{ background:url(../images/servic_btn5.png) no-repeat left top;}
+					.ser_block5:hover div.ser_img a{ background-position:left bottom;}
+					
+				.ser_block div.ser_list{ float:left; width:413px; height:129px; background:#fff;  -moz-border-radius:6px; -webkit-border-radius:6px; border-radius:6px; }	
+				.ser_list ul{ margin:10px 0 0 14px; height:110px;  overflow:hidden; overflow-y:auto;}
+					.ser_block ul li{ float:left; width:108px; height:22px; padding-left:8px; background:url(../images/ico_2.png) no-repeat left center; display:inline; overflow:hidden; margin:0 5px;}
+					.ser_block ul li a{ font:normal 12px/22px "Microsoft YaHei"; color:#047dc5;}
+					.ser_block ul li a:hover{ text-decoration:underline; color:orange;}
+		.servicehall_more{ margin-top:13px; padding-left:3px;}
+			.servicehall_more div.floatclear{ height:13px;}
+			.servicehall_more img{ float:left;}
+			.servicehall_more input{ float:left;}
+				.servicehall_more input.text{ width:284px; height:21px; background:#fff; border:1px solid #e3e3e3; color:#666; padding:0 5px; font:normal 12px/21px SimSun;}
+				.servicehall_more input.btn1{ width:47px; height:25px;  background:url(../images/btn_6.png) no-repeat; border:0; cursor:pointer; color:#fff; font:normal 14px/24px SimSun; padding-bottom:6px; margin-left:6px;}
+				.servicehall_more input.btn2{ width:101px; height:25px; background:url(../images/btn_7.png) no-repeat; border:0; cursor:pointer; color:#fff; font:normal 14px/24px SimSun; padding-bottom:6px;margin-left:6px;}
+			.servicehall_more a{ float:left; width:94px; height:23px; background:url(../images/btn_5.png) no-repeat; text-align:center; font:normal 14px/23px "Microsoft YaHei"; color:#fff; margin:0 9px; display:inline;}
+.home_piclist{ width:986px; height:128px; margin-bottom:10px; overflow:hidden;}
+	.ind_con7{width:1000px; height:128px; margin:0 auto 0; position:relative; z-index:0;}
+	.icon_l{ position:absolute; left:7px; top:80px; width:55px; height:54px;}
+	.icon_r{ position:absolute; right:7px; top:80px; width:55px; height:54px;}
+	.ind_con7 td{ text-align:center;}
+	.ind_con7 td a{ line-height:50px;}
+.home_function{ width:986px; height:82px; background:#dbedff; margin-bottom:10px; overflow:hidden;}
+	.home_function ul{ margin:12px 0 0 11px; height:58px; }
+	.home_function ul li{ float:left; margin-right:13px; width:182px; height:58px; overflow:hidden; }
+		.home_function ul li a{ float:left; width:182px; height:58px; overflow:hidden; background:url(../images/function_ico.png) no-repeat;}
+		.home_function ul li.fun_one a{ background-position:0 0;}
+		.home_function ul li.fun_two a{ background-position:0 -100px;}
+		.home_function ul li.fun_three a{ background-position:0 -200px;}
+		.home_function ul li.fun_four a{ background-position:0 -300px;}
+		.home_function ul li.fun_five a{ background-position:0 -400px;}
+			.home_function ul li.fun_one a:hover{ background-position:-300px 0;}
+			.home_function ul li.fun_two a:hover{ background-position:-300px -100px;}
+			.home_function ul li.fun_three a:hover{ background-position:-300px -200px;}
+			.home_function ul li.fun_four a:hover{ background-position:-300px -300px;}
+			.home_function ul li.fun_five a:hover{ background-position:-300px -400px;}
+
+
+
+
+/*text list*/
+.inside_main{ width:986px; margin:12px 0 16px 0;} 
+	.inside_left{ float:left; width:220px;}
+		.ins_left_div{ margin-bottom:12px;}
+			.ins_left_title{ width:220px;; height:47px; background:url(../images/ins_left_title.png) no-repeat; font:normal 22px/44px "Microsoft YaHei"; color:#fff; text-align:center;}
+			.ins_left_con{ width:190px; background:#f2f3f2; border:1px solid #e0e0e0;  -moz-border-radius:0 0 8px 8px; -webkit-border-radius:0 0 8px 8px; border-radius:0 0 8px 8px; padding:16px 14px; }
+			
+			.ins_left_nav ul{}
+				.ins_left_nav ul li{ width:130px; height:32px; border:1px solid #f2f3f2; background:url(../images/ico_4.png) no-repeat 48px 13px; padding-left:60px;}
+				.ins_left_nav ul li a{ font:normal 16px/32px "Microsoft YaHei"; color:#0467a3;}
+					.ins_left_nav ul li:hover{ border:1px solid #c6c6c6;  background:url(../images/ico_4.png) no-repeat 48px -41px;  background-color:#eeeeee;}
+					.ins_left_nav ul li:hover a{ color:#ff8a00;}
+					
+			.ins_left_div div.police_inf{ width:220px; margin:0; height:auto;}
+				.ins_left_div div.police_inf h3{ width:218px; background:#e3e3e3;}
+				.ins_left_div div.police_inf h3 span{ width:72px;}
+					.ins_left_div div.inf_con{ width:218px; background:#f3f3f2; border:1px solid #e3e3e3; border-top:0;}
+					.ins_left_div div.inf_con_text ul li{ width:176px;}
+	.inside_right{ float:right; width:750px;}
+		.inside_bgtop{ width:750px; height:14px; background:url(../images/ins_right_bg.jpg) no-repeat left top;}
+		.inside_bgbot{  width:750px; height:14px; background:url(../images/ins_right_bg.jpg) no-repeat left bottom;}
+		.inside_con{ width:685px; background:url(../images/ins_right_bg1.jpg) repeat-y; padding:10px 33px 10px 32px; }
+			.inside_con ul{}
+			.inside_con ul li{ height:28px; width:675px; overflow:hidden; padding-left:10px; background:url(../images/ico_3.jpg) no-repeat left center;}
+				.inside_con ul li a{ font:normal 14px/28px SimSun;}
+		.page{ padding:22px 0 10px 0; text-align:center;}
+			.page a{ color:#333; font:normal 12px SimSun; padding:4px 6px; background:#fff; border:1px solid #8db5d7; margin:0 2px;}
+				.page a:hover{  border:1px solid #e89954; background:#ffca7d;}
+			.page span{  font:normal 12px SimSun; color:#333; border:1px solid #e89954; background:#ffca7d; font:normal 12px SimSun; padding:4px 6px; margin:0 2px;}
+
+
+/*show*/
+.show_title{ padding:14px 0; border-bottom:1px dashed #d8d8d8;}
+	.show_title h4{ text-align:center; font:bold 16px/22px "Microsoft YaHei"; padding:0 0 10px 0;}
+	.show_title p{ text-align:center; font:normal 14px/22px "Microsoft YaHei";}
+
+
+.show_con{ padding:20px 0;}
+
+/*pic list 1*/
+.piclist1 dl{ float:left; margin:10px 10px; display:inline;}
+	.piclist1 dl dt{ width:150px; height:120px; overflow:hidden;}
+		.piclist1 dl:hover dt a img{ border-color:orange;}
+		.piclist1 dl dt img{ padding:4px; border:1px solid #b4b4b4;}
+	.piclist1 dl dd{ width:150px; height:24px;text-align:center; overflow:hidden;}
+		.piclist1 dl dd a{ font:normal 14px/24px "Microsoft YaHei"; }
+			.piclist1 dl:hover dd a{ color:orange; text-decoration:underline;}
+
+
+/*pic list 2*/
+.piclist2 dl{ width:685px; height:120px; overflow:hidden; margin:10px 0; float:left;}
+.piclist2 dl dt{ float:left; width:150px; height:120px; overflow:hidden;}
+	.piclist2 dl dt img{ padding:4px; border:1px solid #b4b4b4;}
+.piclist2 dl dd{ float:left; width:519px; height:120px; margin-left:16px; display:inline;}
+	.piclist2 dl dd h5{ font:bold 16px/30px "Microsoft YaHei"; height:30px; overflow:hidden;}
+	.piclist2 dl dd p{ font:normal 12px/20px SimSun; text-indent:2em; height:80px; overflow:hidden;}
+	.piclist2 dl dd a{ color:#ff6000;}
+		.piclist2 dl dd a:hover{ text-decoration:underline; color:orange;}
+		
+		
+/*newdetils*/
+.new_detils{width: 986px; margin: 12px 0 16px 0;}
+.new_detils h2,.new_detils p{text-align: center; line-height: 27px;}
+.new_detils a{text-align: center; line-height: 27px; font-weight: bold;}

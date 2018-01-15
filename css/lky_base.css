@@ -1,0 +1,29 @@
+/*公用css*/
+*{ margin:0px; padding:0px;}
+body{ color:#333; background:url(../images/bg.jpg) repeat; font:normal 12px SimSun;}
+body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote,a,big, em,font,img,strong,tt, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form,
+ label, table, caption, tbody, tfoot, thead, tr, th, td, marquee, input, select{ margin:0px; padding:0px;}
+img{ border:0px;}
+ul{ list-style:none;}
+a{ text-decoration:none; color:#333;}
+a:hover{ color:#F00;}
+a:active{ color:#900;}
+.floatclear{ clear:both; height:0; font-size:0;}
+
+.bg{ width:986px; padding:0 10px; background:#fff; margin:0 auto;  }
+
+
+
+.top{ width:986px; height:138px; overflow:hidden;}
+
+.nav{ width:986px; height:42px; overflow:hidden; background:url(../images/nav_bg.jpg) no-repeat center top}
+	.nav ul{ text-align:center;}
+		.nav ul li{ float:left;}
+			.nav ul li a{ font:bold 15px/38px "Microsoft YaHei"; color:#fff; padding:0 20px;}
+			.nav ul li a:hover{ color:yellow; text-decoration:underline;}
+.footer{ width:986px;}
+	.footer_nav{ width:986px; height:30px; background:#2b86bd; overflow:hidden;}
+		.footer_nav p{ text-align:center; font:bold 12px/30px SimSun; color:#fff;}
+	.footer_con{ width:986px; height:50px; overflow:hidden; padding-top:14px;}
+		.footer_con p{ text-align:center; font:normal 12px/20px SimSun;}
+
